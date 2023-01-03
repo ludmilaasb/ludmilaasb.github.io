@@ -97,7 +97,7 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Quantum Computing Algorithms.
+    - title: Quantum Computing Algorithms
       items: 
         - I am researching about Quantum Approximate Optimization Algorithms (QAOA), Quantum Annealing,
            and Unconstrained Binary Optimizations
@@ -105,7 +105,8 @@
     - title: Optimization
       items:
         - I am developing solutions using Quantum Annealing Algorithm for optimizing problems related with job scheduling
-        - The problems I am working on the moment are Music Reduction and Railroad Scheduling
+        - The problems I am working at the moment are Music Reduction and Railroad Scheduling
+        - I like multi-variable problems and my goal is to design better tools to handle scientific data
     - title: Machine Learning 
       items:
         - I would like to apply unsupervised learning to deal with Quantum Information data
