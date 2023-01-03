@@ -1,7 +1,6 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 27-10-2022
 inline: true
 ---
-
-A simple inline announcement.
+I have a recorded talk from last year about the things I did during the master. Take a [look](https://youtu.be/JeDSd6SJsGw)! :smile:

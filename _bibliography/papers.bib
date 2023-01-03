@@ -3,81 +3,119 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+@article{botelho2019tomography,
+  abbr = {Msc Thesis},
+  title={Tomography on Continuous Variable Quantum States},
+  author={Botelho, Ludmila},
+  journal={Master Thesis, UFMG},
+  year={2019},
+  arXiv = {1911.09648},
+  html = {https://repositorio.ufmg.br/handle/1843/SMRA-BDQPRN},
+  abstract = {In this work we have explored few tools in Quantum State 
+  Tomography for Continuous Variable Systems. The concept of quantum states 
+  in phase space representation is introduced in a simple manner by using a 
+  few statistical concepts. Unlike most texts of Quantum information in which
+   the Wigner function for a single mode is often more used, in this text the 
+   multi-modes state Wigner function is also developed. Our numerical 
+   investigations indicate that the reconstructed method using back-projection 
+   add some error due the choice of cutoff frequency, therefore it is necessary 
+   to use data post-processing, like the semi-definite programs, which provides 
+   sufficient conditions correctly estimate the state. Once the information about
+    the state is recovered, important features such as entanglement can also 
+    be investigated.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
+@article{botelho2020efficient,
+  abbr = {EPJD},
+  title={Efficient quantum tomography of two-mode Wigner functions},
+  author={Botelho, Ludmila and Vianna, Reinaldo},
+  journal={The European Physical Journal D},
+  volume={74},
+  number={3},
+  pages={1--7},
+  year={2020},
+  month = {Jan},
+  publisher={Springer},
+  arxiv = {1912.12222},
+  abstract = {We introduce an efficient method to reconstruct the Wigner function
+   of many-mode continuous variable systems. It is based on convex optimization 
+   with semidefinite programs, and also includes a version of the maximum entropy 
+   principle, in order to yield unbiased states. A key ingredient of the proposed 
+   approach is the representation of the state in a truncated Fock basis. 
+   As a bonus, the discrete finite representation allows to easily quantify 
+   the entanglement.},
+  html = {https://rdcu.be/cWhKG},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@article{PhysRevA.105.022441,
+  abbr = {Phys. Rev. A},
+  title = {Error mitigation for variational quantum algorithms through mid-circuit measurements},
+  author = {Botelho, Ludmila and Glos, Adam and Kundu, Akash and Miszczak, 
+            Jaros\l{}aw Adam and Salehi, \"Ozlem and Zimbor\'as, Zolt\'an},
+  journal = {Phys. Rev. A},
+  volume = {105},
+  issue = {2},
+  pages = {022441},
+  numpages = {14},
+  year = {2022},
+  month = {Feb},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.105.022441},
+  html = {https://link.aps.org/doi/10.1103/PhysRevA.105.022441},
+  arxiv = {2108.10927},
+  abstract = {Noisy intermediate-scale quantum algorithms require novel paradigms 
+              of error mitigation. To obtain noise-robust quantum computers, each 
+              logical qubit is equipped with hundreds or thousands of physical 
+              qubits. However, it is not possible to use memory-consuming 
+              techniques for current quantum devices having at most hundreds or 
+              thousands of physical qubits on their own. For specific problems, 
+              valid quantum states have a unique structure as in the case of 
+              Fock states and W states where the Hamming weight is fixed, and the 
+              evolution takes place in a smaller subspace of the full Hilbert space. 
+              With this preknowledge, some errors can be detected during the 
+              evolution of the circuit, by filtering the states not obeying the 
+              pattern through postselection. In this paper, we present mid-circuit 
+              postselection schemes for frequently used encodings such as one-hot, 
+              binary, gray, and domain-wall encoding. For the particular subspace 
+              of one-hot states, we propose a method that works by compressing 
+              the full Hilbert space to a smaller subspace, allowing projecting 
+              to the desired subspace without using any ancilla qubits. 
+              We demonstrate the effectiveness of the approach for the quantum 
+              alternating operator ansatz algorithm. Our method is particularly 
+              suitable for the currently available hardware, where measuring and r
+              esetting are possible, but classical conditional operators are not.},
+  selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inbook{arya2022music,
+  abbr = {Springer},
+  title={Applications of Quantum Annealing to Music Theory},
+  author={Arya, Ashish and Botelho, Ludmila and Ca{\~n}ete, Fabiola and Kapadia, Dhruvi and Salehi, {\"O}zlem},
+  booktitle={Quantum Computer Music: Foundations, Methods and Advanced Concepts},
+  arxiv = {2201.10557},
+  abstract = {"With the emergence of quantum computers, a new field of algorithmic
+   music composition has been initiated. The vast majority of previous work focuses 
+   on music generation using gate-based quantum computers. An alternative model of 
+   computation is adiabatic quantum computing (AQC), and a heuristic algorithm known 
+   as quantum annealing running in the framework of AQC is a promising method for 
+   solving optimization problems. In this chapter, we lay the groundwork for music 
+   composition using quantum annealing. We approach the process of music composition 
+   as an optimization problem. We describe the fundamental methodologies needed for 
+   generating different aspects of music including melody, rhythm, and harmony. 
+   The discussed techniques are illustrated through examples to ease the understanding. 
+   The music pieces generated using D-Wave's quantum annealers are among the first 
+   examples of their kind and presented within the scope of the chapter.},
+  year={2022},
+  publisher={Springer International Publishing},
+  editor = {Miranda, Eduardo Reck},
+  address={Cham},
+  month = {Nov},
+  doi={10.1007/978-3-031-13909-3_15},
+  html = {https://doi.org/10.1007/978-3-031-13909-3_15},
+  pages={373--406},
+  isbn={978-3-031-13909-3},
+  selected = {true}
 }
